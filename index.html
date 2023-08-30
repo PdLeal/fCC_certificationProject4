@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Landing page made a certification project for freeCodeCamp" />
+    <title>Landing Page - Certification project freeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/74916e8324.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img"
+                src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-black-badge-01-en-11sep20?$400px--t$"
+                alt="playstation 5 logo" />
+            <ul id="nav-list">
+                <li class="nav-li-item"><a class="nav-link" href="#hero">Features</a></li>
+                <li class="nav-li-item"><a class="nav-link" href="#video-sec">Trailer</a></li>
+                <li class="nav-li-item"><a class="nav-link" href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <ul id="hero-list">
+            <i class="fa-solid fa-tv" style="color: #09095e;"></i>
+            <li>Up to 4K images, 120fps and support for Ray Tracing and 120Hz</li>
+            <i class="fa-solid fa-gamepad" style="color: #09095e;"></i>
+            <li>Dualsense control with adaptive triggers and haptic feedback</li>
+            <i class="fa-solid fa-headphones" style="color: #09095e;"></i>
+            <li>3D audio on supported devices</li>
+            <i class="fa-solid fa-spinner" style="color: #09095e;"></i>
+            <li>SSD that make loading screens almost instantaneous</li>
+            <i class="fa-brands fa-playstation" style="color: #09095e;"></i>
+            <li>Choose between the physical or digital edition - for all kinds of players</li>
+        </ul>
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/comparison-consoles-xl_@2x?fmt=png-alpha&scl=1"
+            alt="both editions of the ps5" id="hero-img" />
+    </section>
+    <section id="video-sec">
+        <iframe id="video" src="https://www.youtube.com/embed/cxXvYJyBlc4" title="Play Like Never Before | PS5"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+    <section>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Leave your email if you want to know more! <input type="email" name="email" id="email"
+                    placeholder="Enter your email here" /></lavel>
+                <input type="submit" id="submit" value="Leave email" />
+        </form>
+    </section>
+</body>
+
+</html>
